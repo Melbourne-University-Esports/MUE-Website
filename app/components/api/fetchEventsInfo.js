@@ -19,6 +19,7 @@ export async function fetchEventsInfo() {
         location: page.properties.Location.rich_text[0].plain_text,
         finalised: page.properties.Finalised.checkbox,
         date: page.properties.Start.date.start,
+        endDate: page.properties.End.date.start,
         posterUrl: page.properties.Poster.files[0].file.url,
         duration: page.properties.Duration.formula.string,
         name: page.properties.Name.title[0]?.plain_text,

@@ -41,8 +41,8 @@ const EventsPage: React.FC = async () => {
     hour12: true
   });
 
-  const upcomingEvents = data.filter(event => new Date(event.date ?? '') >= now);
-  const pastEvents = data.filter(event => new Date(event.date ?? '') < now).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 3);
+  const upcomingEvents = data.filter(event => new Date(event.endDate ?? '') >= now);
+  const pastEvents = data.filter(event => new Date(event.endDate ?? '') < now).sort((a, b) => new Date(b.endDate).getTime() - new Date(a.endDate).getTime()).slice(0, 3);
 
 
   return (

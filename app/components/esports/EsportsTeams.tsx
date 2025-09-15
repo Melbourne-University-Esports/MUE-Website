@@ -42,7 +42,7 @@ const EsportsTeams: React.FC<Props> = ({ teamsData }) => {
     <section className="py-16">
       <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-8 gap-2">
         <h2 className="text-white text-3xl font-bold">Esports Teams</h2>
-        <p className="text-sm text-MUE-sky-blue font-medium">Updated for 2025 Semester 1</p>
+        <p className="text-sm text-MUE-sky-blue font-medium">Updated for 2025 Semester 2</p>
       </div>
 
       {/* Tabs */}
