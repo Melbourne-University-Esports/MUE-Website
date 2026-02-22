@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
 
         {/* Copyright */}
         <p className="text-gray-400 text-xs">
-          © Copyrights MUE 2025 All Rights Reserved
+          © Copyrights MUE 2026 All Rights Reserved
         </p>
       </div>
     </footer>
